@@ -21,9 +21,9 @@ document.getElementById("submit-button").addEventListener("click",function(){
 
    if(email==="sayedvai2028@gmail.com" && password=="sayed2428"){
     window.location.href="bank.html"
-   }else if(email==="tamilashikdar06@gmail.com" && password=="sayed2428"){
+   }else if(email==="tamilashikdar06@gmail.com" && password=="sayed242806"){
     window.location.href="bank.html"
-   }else if(email==="sayed28082000@gmail.com" && password=="sayed2428"){
+   }else if(email==="sayed28082000@gmail.com" && password=="sayed2028"){
     window.location.href="bank.html"
    }else{
     alert("invalid email or password");
