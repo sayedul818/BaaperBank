@@ -4,7 +4,7 @@ document.getElementById("deposit-btn").addEventListener("click",function(){
     // step-02: get the deposit ammount from the deposit input field
     // For input field use .value
     const depositInputField=document.getElementById("deposit-input-field");
-    const newDepositRequest=depositInputField.value;
+    const newDepositRequest= parseFloat(depositInputField.value);
     // clear the deposit input field
     depositInputField.value="";
     
